@@ -15,6 +15,7 @@ This analysis is based on five tables containing hotel booking and financial dat
 ### **Step 1: Combining Multiple Years of Data**  
 I merged the 2018, 2019, and 2020 datasets into a single dataset using **UNION ** to analyze all years simultaneously.  
 
+```sql
 WITH hotels AS (
     SELECT * FROM dbo.['2018$']
     UNION
@@ -23,7 +24,7 @@ WITH hotels AS (
     SELECT * FROM dbo.['2020$']
 )
 SELECT * FROM hotels;
-
+```
 ### **Step 2:Calculating Revenue Per Booking**
 Created a revenue column using **Average Daily Rate**(ADR) and total numbers of nights stayed (weekdays + weekends).
 

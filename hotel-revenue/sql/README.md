@@ -32,7 +32,8 @@ Created a revenue column using **Average Daily Rate**(ADR) and total numbers of 
 SELECT 
     (stays_in_week_nights + stays_in_weekend_nights) * adr AS revenue
 FROM hotels;
-``
+```
+
 ### **STEP 3:Aggregating Revenue by Year & Hotel Type**
 To understand the revenue trends, I grouped the data by arrival_date_year and hotel, which sums up the total revenue of each hotel type by each year from 2018 - 2020.
 

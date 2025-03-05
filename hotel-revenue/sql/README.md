@@ -9,7 +9,6 @@ This analysis is based on five tables containing hotel booking and financial dat
 - **dbo.market_segments$** – Market segmentation details  
 - **dbo.meal_cost$** – Meal cost information  
 
----
 
 ## **SQL Analysis Steps**  
 

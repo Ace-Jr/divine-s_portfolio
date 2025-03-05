@@ -8,8 +8,7 @@ What key factors (genre, ratings, price, etc.) contribute to a video game’s su
 
 ## Data Sources
 - **Kaggle Video Game Sales Dataset:** Contains data on video game titles, sales, genres, platforms, and release years.
-- **Supplementary Data:** Publicly available ratings and pricing data from Metacritic and other game review sites.
-
+  
 ## Tools & Techniques
 - **Data Acquisition:** Download CSV files from Kaggle and scrape supplementary data using Python.
 - **Data Preparation:** Use SQL and Pandas for cleaning, merging, and creating new derived metrics.

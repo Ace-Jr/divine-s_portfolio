@@ -13,7 +13,7 @@ This analysis is based on five tables containing hotel booking and financial dat
 ## **SQL Analysis Steps**  
 
 ### **Step 1: Combining Multiple Years of Data**  
-To analyze all years at once, I merged the 2018, 2019, and 2020 datasets into a single dataset using **`UNION`**.  
+I merged the 2018, 2019, and 2020 datasets into a single dataset using **UNION ** to analyze all years simultaneously.  
 
 ```sql
 WITH hotels AS (

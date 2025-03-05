@@ -1,7 +1,7 @@
 # Hotel Booking Data Analysis & Visualization Dashboard
 
 ## Overview
-This project is a hands-on data analyst portfolio piece where we develop a full end-to-end solution using hotel booking data. We start by creating a SQL Server database from Excel files, then develop SQL queries to prepare our data, and finally connect that database to Power BI. The goal? To answer key stakeholder questions through an interactive visual dashboard.
+This project is a hands-on data analyst portfolio piece where I developed a full end-to-end solution using hotel booking data. We start by creating a SQL Server database from Excel files, then develop SQL queries to prepare our data, and finally connect that database to Power BI. The goal? To answer key stakeholder questions through an interactive visual dashboard.
 
 ## Business Questions Addressed
 - **Is our hotel revenue growing by the year?**  

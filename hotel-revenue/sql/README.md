@@ -1,15 +1,22 @@
-The data consists of five tables:
-dbo.['2018$'] (2018 hotel data)
-dbo.['2019$'] (2019 hotel data)
-dbo.['2020$'] (2020 hotel data)
-dbo.market_segments$ (market segmentation data)
-dbo. meal_cost$ (meal cost information)
+# **Hotel Revenue Analysis (2018-2020)**  
 
-Steps I used to analyze the data using SQL
+## **Dataset Overview**  
+This analysis is based on five tables containing hotel booking and financial data:  
 
-Step 1:
-Analyzed all years simultaneously by merging the 2018-2020 datasets into a single dataset using **UNION**.
+- **dbo.['2018$']** – Hotel data for 2018  
+- **dbo.['2019$']** – Hotel data for 2019  
+- **dbo.['2020$']** – Hotel data for 2020  
+- **dbo.market_segments$** – Market segmentation details  
+- **dbo.meal_cost$** – Meal cost information  
 
+---
+
+## **SQL Analysis Steps**  
+
+### **Step 1: Combining Multiple Years of Data**  
+To analyze all years at once, I merged the 2018, 2019, and 2020 datasets into a single dataset using **`UNION`**.  
+
+```sql
 WITH hotels AS (
     SELECT * FROM dbo.['2018$']
     UNION

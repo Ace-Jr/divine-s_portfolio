@@ -28,26 +28,30 @@ SELECT * FROM hotels;
 ### **Step 2:Calculating Revenue Per Booking**
 Created a revenue column using **Average Daily Rate**(ADR) and total numbers of nights stayed (weekdays + weekends).
 
+```sql
 SELECT 
     (stays_in_week_nights + stays_in_weekend_nights) * adr AS revenue
 FROM hotels;
-
+``
 ### **STEP 3:Aggregating Revenue by Year & Hotel Type**
 To understand the revenue trends, I grouped the data by arrival_date_year and hotel, which sums up the total revenue of each hotel type by each year from 2018 - 2020.
 
+```sql
 SELECT 
     arrival_date_year,
     hotel,
     ROUND(SUM((stays_in_week_nights + stays_in_weekend_nights) * adr), 2) AS revenue
 FROM hotels
 GROUP BY arrival_date_year, hotel;
-
+```
 ## **STEP 4:Enriching Data with Market Segments & Meal Costs**
 Merged market_segments & meal_cost table to the hotel table using left join to  provide deeper insights
 
+```sql
 SELECT * 
 FROM hotels
 LEFT JOIN dbo.market_segments$ AS ms 
     ON hotels.market_segment = ms.market_segment
 LEFT JOIN dbo.meal_cost$ AS mc 
     ON mc.meal = hotels.meal;
+```

@@ -24,7 +24,7 @@ WITH hotels AS (
     SELECT * FROM dbo.['2020$']
 )
 SELECT * FROM hotels;
-
+```sql
 Step 2:
 Created a revenue column using **Average Daily Rate**(ADR) and total numbers of nights stayed (weekdays + weekends).
 

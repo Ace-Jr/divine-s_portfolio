@@ -15,7 +15,6 @@ This analysis is based on five tables containing hotel booking and financial dat
 ### **Step 1: Combining Multiple Years of Data**  
 I merged the 2018, 2019, and 2020 datasets into a single dataset using **UNION ** to analyze all years simultaneously.  
 
-```sql
 WITH hotels AS (
     SELECT * FROM dbo.['2018$']
     UNION
@@ -24,15 +23,15 @@ WITH hotels AS (
     SELECT * FROM dbo.['2020$']
 )
 SELECT * FROM hotels;
-```sql
-Step 2:
+
+### **Step 2:Calculating Revenue Per Booking**
 Created a revenue column using **Average Daily Rate**(ADR) and total numbers of nights stayed (weekdays + weekends).
 
 SELECT 
     (stays_in_week_nights + stays_in_weekend_nights) * adr AS revenue
 FROM hotels;
 
-STEP 3:
+### **STEP 3:Aggregating Revenue by Year & Hotel Type**
 To understand the revenue trends, I grouped the data by arrival_date_year and hotel, which sums up the total revenue of each hotel type by each year from 2018 - 2020.
 
 SELECT 
@@ -42,7 +41,7 @@ SELECT
 FROM hotels
 GROUP BY arrival_date_year, hotel;
 
-STEP 4:
+## **STEP 4:Enriching Data with Market Segments & Meal Costs**
 Merged market_segments & meal_cost table to the hotel table using left join to  provide deeper insights
 
 SELECT * 

@@ -11,7 +11,8 @@ Please answer the questions below based on the data provided:
 **afternoon (12:00PM - 6:00PM),**
 **evening (6:00PM - 12:00AM).**
 **What is the percentage of sales in each daypart over all 50 weeks?**
-##Data Description
+
+## Data Description
 The datasets/ directory contains fifty CSV files (one per week) of timestamped sales data. Each row in a file has two columns:
 
 - **sale_time** - The timestamp on which the sale was made e.g. 2012-10-01 01:42:22

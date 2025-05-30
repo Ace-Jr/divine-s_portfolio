@@ -9,9 +9,9 @@ Track sales KPIs for an e-commerce business to understand revenue trends, produc
 - DAX
 
 ## 📂 Project Structure
-/data/ # Raw/cleaned data
-/dashboards/  Power BI .pbix
-README.md # This file
+- /data/ # Raw/cleaned data
+- /dashboards/  Power BI .pbix
+- README.md # This file
 
 ## 📈 KPIs or Key Metrics
 - Total Sales

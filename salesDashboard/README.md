@@ -50,8 +50,3 @@ README.md # This file
 - **Investigate regional sales strategies**: Target underperforming Southern states with localized promotions or better fulfillment options to reduce potential delivery friction.
 
 - **Track customer LTV**: Since average order value appears to be increasing, invest in identifying high-value customers and create personalized campaigns to retain and grow them.
-
-## 📡 Live Demo (If Applicable)
-[Power BI Dashboard](...)  
-[Tableau Public](...)  
-[Shiny App](...)

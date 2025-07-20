@@ -1,4 +1,4 @@
-# Amazon Review Sentiment Analyzer
+#Review Sentiment Analyzer
 
 A data analytics and NLP project that classifies Amazon product reviews as Good, Bad, or Neutral using sentiment analysis. Built with Python, VADER/TextBlob, Pandas, and Matplotlib.
 

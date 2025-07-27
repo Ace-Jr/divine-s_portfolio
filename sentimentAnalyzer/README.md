@@ -2,7 +2,7 @@
 
 This project is a full data analysis and Natural Language Processing (NLP) solution designed to help an e-commerce clothing business understand the voice of its customers. By programmatically analyzing thousands of text reviews, we can move beyond simple star ratings to uncover specific drivers of customer satisfaction and dissatisfaction. The goal is to provide actionable insights that can be used to improve product quality, reduce returns, and enhance marketing efforts.
 
-## :
+## Businnes Questions Addresed:
 - What is the overall sentiment distribution (Positive, Negative, Neutral) across all products?
 - Which product departments or classes receive the most negative feedback?
 - What specific keywords (e.g., "sizing," "fabric," "color") are most frequently associated with positive vs. negative reviews?

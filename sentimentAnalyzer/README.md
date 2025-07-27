@@ -21,7 +21,7 @@ Source: [Kaggle](https://www.kaggle.com/datasets/nicapotato/womens-ecommerce-clo
 - Data Cleaning & Preprocessing: Loaded the CSV dataset using Pandas; handled missing values and prepared review text for analysis (e.g., lowercasing, removing punctuation).
 - Sentiment Analysis: Applied the VADER (or TextBlob) sentiment analyzer to each review to generate a compound sentiment score. Classified reviews into 'Positive', 'Negative', and 'Neutral' categories based on this score.
 - Exploratory Data Analysis (EDA): Combined sentiment scores by product category and department are used to identify high- and low-performing sectors.
-- Insight Generation: Created word clouds and frequency distributions for positive and negative review keywords to diagnose specific issues like sizing, fabric quality, or style.
+- Insight Generation: Created word clouds and frequency distributions for positive and negative review keywords to diagnose specific issues.
 
 ## Insights & Recommendations:
 - Investigate the "Top" Department: The "Trend" department shows a significantly higher proportion of negative reviews (15.5%) compared to other departments like "Dresses" (8.5%) and "Tops" (9.7%). The business should prioritize investigating the root causes of this dissatisfaction. This could involve analyzing product quality, sizing inconsistencies, or misleading product descriptions specific to this department.

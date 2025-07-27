@@ -9,7 +9,8 @@ This project is a comprehensive data analysis and Natural Language Processing (N
 - Can we identify specific products that are strong candidates for promotion or discontinuation based on sentiment?
 
 ## Dataset
-Women's Clothing E-Commerce Reviews
+Women's Clothing E-Commerce Reviews.
+
 Source: [Kaggle](https://www.kaggle.com/datasets/nicapotato/womens-ecommerce-clothing-reviews)
 
 ## Tools

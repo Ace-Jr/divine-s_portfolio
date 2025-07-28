@@ -1,5 +1,7 @@
 Money Talks: Predicting League Performance from Wage Spending
 
-An AI model that predicts league finish based on total wage bill, then flags clubs as overachieving/underachieving relative to their spend.
+Can money really buy success? 
+This project explores the famous *Soccernomics* claim that a club’s wage bill is the best predictor of their league position.
+
 
 Coming Soon...

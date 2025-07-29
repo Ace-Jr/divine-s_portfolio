@@ -4,7 +4,10 @@ Can money buy success?
 This project explores the famous *Soccernomics* claim that a club’s wage bill is the best predictor of their league position.
 
 ## Scope
-Focus is on all teams that have not been relegated since 2015 (10-Season Window).
+The focus is on all teams that have not been relegated since 2015 (a 10-season window).
+Collecting the following data points: Club, Season, Total Wage Bill, Revenue, Wage/Revenue Ratio, League Position, and Points.
+Optional points(For deeper analysis): Squad Age, GD, XG, Transfer Spent Per Position, Wage Spent Per Position.
+
 ### Teams
 - Arsenal
 - Everton
@@ -15,4 +18,7 @@ Focus is on all teams that have not been relegated since 2015 (10-Season Window)
 - Manchester City
 - Crystal Palace
 - West Ham
+
+
+
 Coming Soon...

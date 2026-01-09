@@ -47,9 +47,11 @@ Rather than using average age, which fails to capture game intelligence, I engin
 -**The "Unified Season" Approach:** January transfers are included to reflect managerial adaptability/correction, with their experience metrics retroactively baselined to the season start to maintain temporal consistency.
 
 ## Project Roadmap
-- Scope Definition & Team Selection
-- Data Collection (Web Scraping via Selenium/Soccerdata API)
-- Feature Engineering (Tenure Calculations & Leap Year Adjustments)
-- Exploratory Data Analysis (EDA)
-- Regression Modeling (OLS/Panel Data)
-- Final Hypothesis Testing
+[X] **Phase 1: Scope Definition & Team Selection**
+[X] **Phase 2: Data Collection**(Web Scraping Wages & Match Stats via Selenium/Soccerdata API)
+[X] **Phas3: Feature Engineering**
+   - [X] Calculate Manager Tenure (Sept 2nd Rule)
+   - [X] Calculate Relative Experience Index (Top 5 Leagues)
+[ ] **Phase 4: Exploratory Data Analysis (EDA)[
+[ ] **Phase 5: Regression Modeling** (OLS / Panel Data Analysis)
+[ ] **Phase 6: Final Report**

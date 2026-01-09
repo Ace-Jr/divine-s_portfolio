@@ -7,7 +7,7 @@
 By isolating this unique group, this study uses regression analysis to determine the **most important predictor** of points accumulation among three competing variables:
 1.  **Financial Power** (Wage Bill)
 2.  **Managerial Stability** (Tenure Duration)
-3.  **Squad "Game Intelligence"** (Relative Experience Index)
+3.  **Squad "Game Intelligence** (Relative Experience Index)
 
 
 ## Scope

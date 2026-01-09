@@ -19,6 +19,15 @@ Optional points(For deeper analysis): Squad Age, GD, XG, Transfer Spent Per Posi
 - Crystal Palace
 - West Ham
 
+## Methodology
+### 1. Manager Tenure(Stabilitiy)
+### 2. Player Experience:
+### 3.
 
-
-Coming Soon...
+## Project Roadmap
+- Scope Definition & Team Selection
+- Data Collection (Web Scraping via Selenium/Soccerdata API)
+- Feature Engineering (Tenure Calculations & Leap Year Adjustments)
+- Exploratory Data Analysis (EDA)
+- Regression Modeling (OLS/Panel Data)
+- Final Hypothesis Testing

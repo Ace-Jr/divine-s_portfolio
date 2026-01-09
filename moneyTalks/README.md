@@ -11,8 +11,8 @@ By isolating this unique group, this study uses regression analysis to determine
 
 
 ## Scope
-Collecting the following data points: Club, Season, Total Wage Bill, League Position, Manager Tenure(In Days), Matches Played and Points.
-Optional points: Squad Age, GD, XG, Wage Spent Per Position.
+I will be collecting the following data points: Club, Season, Total Wage Bill, League Position, Manager Tenure(In Days), Matches Played and Points.
+Additional Data Points: Squad Age, GD, XG, Wage Spent Per Position.
 
 ### Teams
 - Arsenal

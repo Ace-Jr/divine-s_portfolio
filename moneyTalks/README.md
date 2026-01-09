@@ -5,7 +5,6 @@ For Premier League clubs with long-term survival status, is **Wage Expenditure**
 *Soccernomics* famously argues that a club's wage bill is the single best predictor of its league position. However, this project challenges that consensus by analyzing the **"Non-Relegated 9"**—the specific cohort of teams that have avoided relegation for 10 consecutive seasons (2014–2024).
 
 ## Scope
-The focus is on all teams that have not been relegated since the 2013-2014 Season.
 Collecting the following data points: Club, Season, Total Wage Bill, League Position, Manager Tenure(In Days), Matches Played and Points.
 Optional points: Squad Age, GD, XG, Wage Spent Per Position.
 

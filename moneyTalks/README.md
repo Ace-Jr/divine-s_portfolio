@@ -22,7 +22,7 @@ Optional points(For deeper analysis): Squad Age, GD, XG, Transfer Spent Per Posi
 ## Methodology
 ### 1. Manager Tenure(Stabilitiy)
 ### 2. Player Experience:
-### 3.
+### 3. Unified Season:
 
 ## Project Roadmap
 - Scope Definition & Team Selection

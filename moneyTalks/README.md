@@ -1,4 +1,4 @@
-# Money Talks: Predicting League Performance from Wage Spending
+# The Survival Formula: Predictors of EPL Consistency
 
 Can money buy success? 
 This project explores the famous *Soccernomics* claim that a club’s wage bill is the best predictor of their league position.

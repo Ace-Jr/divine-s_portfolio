@@ -22,6 +22,7 @@ Optional points(For deeper analysis): Squad Age, GD, XG, Transfer Spent Per Posi
 ## Methodology
 ### 1. Manager Tenure(Stability):
 To strictly measure "Ex Ante" stability (stability prior to performance), manager tenure is calculated using a **September 2nd Snapshot Rule**:
+
 -**Definition:** Tenure is defined as the consecutive days a manager has held the position as of September 2nd of the target season.
 -**Rationale:** This date aligns with the closure of the English Premier League Transfer Window. It effectively attributes the squad's construction and pre-season preparation to the manager in charge at that deadline.
 -**Noise Reduction:** This method isolates "Preparation Stability" from "Survival Tenure," preventing reverse causality where match results influence the tenure variable (e.g., mid-season sackings).

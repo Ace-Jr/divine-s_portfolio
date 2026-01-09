@@ -20,7 +20,7 @@ Optional points(For deeper analysis): Squad Age, GD, XG, Transfer Spent Per Posi
 - West Ham
 
 ## Methodology
-### 1. Manager Tenure(Stabilitiy)
+### 1. Manager Tenure(Stabilitiy):
 ### 2. Player Experience:
 ### 3. Unified Season:
 

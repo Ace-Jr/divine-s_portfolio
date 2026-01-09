@@ -7,7 +7,7 @@ For Premier League clubs with long-term survival status, is Wage Expenditure tru
 ## Scope
 The focus is on all teams that have not been relegated since the 2013-2014 Season.
 Collecting the following data points: Club, Season, Total Wage Bill, League Position, Manager Tenure(In Days), Matches Played and Points.
-Optional points(For deeper analysis): Squad Age, GD, XG, Transfer Spent Per Position, Wage Spent Per Position.
+Optional points: Squad Age, GD, XG, Transfer Spent Per Position, Wage Spent Per Position.
 
 ### Teams
 - Arsenal

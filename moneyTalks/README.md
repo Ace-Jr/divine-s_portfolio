@@ -1,8 +1,14 @@
 # The Survival Formula: Predictors of EPL Consistency
 
-For Premier League clubs with long-term survival status, is **Wage Expenditure** truly the dominant predictor of success, or do **Managerial Stability** and **Squad Experience** play a more significant statistical role?
-
 *Soccernomics* famously argues that a club's wage bill is the single best predictor of its league position. However, this project challenges that consensus by analyzing the **"Non-Relegated 9"**—the specific cohort of teams that have avoided relegation for 10 consecutive seasons (2014–2024).
+
+**Research Question:** "For Premier League clubs with long-term survival status, is **Wage Expenditure** truly the dominant predictor of success, or do **Managerial Stability** and **Squad Experience** play a more significant statistical role?"
+
+By isolating this unique group, this study uses regression analysis to determine the **most important predictor** of points accumulation among three competing variables:
+1.  **Financial Power** (Wage Bill)
+2.  **Managerial Stability** (Tenure Duration)
+3.  **Squad "Game Intelligence"** (Relative Experience Index)
+
 
 ## Scope
 Collecting the following data points: Club, Season, Total Wage Bill, League Position, Manager Tenure(In Days), Matches Played and Points.

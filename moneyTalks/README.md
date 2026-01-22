@@ -58,5 +58,5 @@ Rather than using average age, which fails to capture game intelligence, I engin
    - [X] Calculate Manager Tenure (Sept 2nd Rule)
    - [X] Calculate Relative Experience Index (Top 5 Leagues)
 - [X] **Phase 4: Exploratory Data Analysis (EDA)** (Correlation Matrices & Visualizations)
-- [ ] **Phase 5: Regression Modeling** (OLS / Panel Data Analysis)
+- [X] **Phase 5: Regression Modeling** (OLS / Panel Data Analysis)
 - [ ] **Phase 6: Final Report**

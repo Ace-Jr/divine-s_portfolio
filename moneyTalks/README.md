@@ -76,3 +76,4 @@ Rather than using average age, which fails to capture game intelligence, I engin
  
 ## Visualizations
 - Functional Form Analysis (Wages vs. Points) Testing for diminishing returns using Loess, Linear, and Quadratic fits
+![moneyTalks](figures/Wage_Function.png)

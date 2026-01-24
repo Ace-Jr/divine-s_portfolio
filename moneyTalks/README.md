@@ -60,3 +60,16 @@ Rather than using average age, which fails to capture game intelligence, I engin
 - [X] **Phase 4: Exploratory Data Analysis (EDA)** (Correlation Matrices & Visualizations)
 - [X] **Phase 5: Regression Modeling** (OLS / Panel Data Analysis)
 - [X] **Phase 6: Final Report**
+
+## Key Findings
+- Structure > Strategy: "Club Identity" (Fixed Effects) is the primary driver of points ($p < .001$). For example, Manchester City starts with a +13 point structural advantage over the baseline, holding all else constant.
+- Money Has Limits: Once club structure is controlled for, marginal increases in wage spending (Log_Wage) do not statistically predict higher point totals ($p = 0.38$).
+- The Myth of Stability: Managerial tenure has no significant linear or quadratic relationship with performance, disproving the "stability dividend" hypothesis for this cohort.
+
+## Technical Implementation
+- Languages: R, Pyhton
+- Libraries: tidyverse, ggplot2, car,e1071,ggcorplot
+- Statistical Methods:
+   - Fixed Effects Modeling: To control for unobserved club heterogeneity.
+   - Nested F-Tests (ANOVA): Used to scientifically reject complex quadratic/interaction models in favor of Parsimony.
+   - Multicollinearity correction: Applied Mean Centering to resolve structural multicollinearity (VIF reduced from >50 to <5).

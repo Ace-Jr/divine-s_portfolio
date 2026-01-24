@@ -67,9 +67,12 @@ Rather than using average age, which fails to capture game intelligence, I engin
 - The Myth of Stability: Managerial tenure has no significant linear or quadratic relationship with performance, disproving the "stability dividend" hypothesis for this cohort.
 
 ## Technical Implementation
-- Languages: R, Pyhton
+- Languages: R, Python
 - Libraries: tidyverse, ggplot2, car,e1071,ggcorplot
 - Statistical Methods:
    - Fixed Effects Modeling: To control for unobserved club heterogeneity.
    - Nested F-Tests (ANOVA): Used to scientifically reject complex quadratic/interaction models in favor of Parsimony.
    - Multicollinearity correction: Applied Mean Centering to resolve structural multicollinearity (VIF reduced from >50 to <5).
+ 
+## Visualizations
+- Functional Form Analysis (Wages vs. Points) Testing for diminishing returns using Loess, Linear, and Quadratic fits

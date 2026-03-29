@@ -32,7 +32,7 @@ Track sales KPIs for an e-commerce business to understand revenue trends, produc
 
 - **Office Supplies lead in total sales share**, making up the largest portion in the pie chart visualization. This is a key category driving revenue, outperforming both Technology and Furniture segments. Despite being lower-priced, the volume of Office Supplies sold is consistently higher.
 
-- The **line chart visualizing YOY revenue** shows a significant **spike in sales during Q4**, particularly in November, suggesting strong seasonality. Compared to the previous year, there is a **YOY growth of approximately 15.3%**, with a notable increase in both order volume and customer count.
+- The **line chart visualizing YOY revenue** shows a significant **spike in sales during Q4**, particularly in November, suggesting strong seasonality. Over the 4 years, there is a 46.9% overall growth.
 
 - The **Total Customers metric increased**, but not as dramatically as revenue, which implies a **higher average order value** or better bundling/upselling performance.
 

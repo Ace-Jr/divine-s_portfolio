@@ -1,4 +1,4 @@
-# 🛍️ E-Commerce Sales Dashboard
+# 🛍️ Superstore Sales Analysis
 
 ## 📌 Problem Statement
 Track sales KPIs for an e-commerce business to understand revenue trends, product performance, and regional sales over time.

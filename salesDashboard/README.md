@@ -22,7 +22,6 @@ Track sales KPIs for an e-commerce business to understand revenue trends, produc
 
 ## 📊 Visuals
 - Monthly revenue trend
-- Top product categories
 - Sales by region
 - YOY growth % (DAX)
 - Slicers for category & date

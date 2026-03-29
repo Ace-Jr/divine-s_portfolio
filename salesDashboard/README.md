@@ -34,8 +34,6 @@ Track sales KPIs for an e-commerce business to understand revenue trends, produc
 
 - The **line chart visualizing YOY revenue** shows a significant **spike in sales during Q4**, particularly in November, suggesting strong seasonality. Over the 4 years, there is a 46.9% overall growth.
 
-- The **Total Customers metric increased**, but not as dramatically as revenue, which implies a **higher average order value** or better bundling/upselling performance.
-
 - The **map visual** reveals that the **Western and Central U.S. regions outperform others in terms of total sales**, while some Southern states show underperformance despite having a wide customer base. This could indicate inefficiencies in regional sales strategies or shipping/logistics barriers.
 
 - Additionally, Technology products—although fewer in transaction count—show **higher average sales per order**, hinting at a possible premium segment that can be tapped more aggressively.

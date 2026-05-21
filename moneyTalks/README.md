@@ -17,3 +17,6 @@ Open notebooks/EPL_Analysis.Rmd and knit to PDF.
 ## Key Findings
 > $\color{red}{Club\ identity\ is\ the\ dominant\ predictor}$ — fixed effects are highly significant (p < .001). Crystal Palace starts ~37 pts below Arsenal baseline; Man City starts ~13 pts above.
 
+>$\color{red}{Wages\ become\ insignificant\ once\ club\ identity\ is\ controlled} — Log_Wage p = 0.387. High wages reflect club size, not gains from seasonal performance.
+
+>

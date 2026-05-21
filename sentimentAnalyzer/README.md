@@ -26,3 +26,5 @@ Dataset: [Women's Clothing E-Commerce Reviews](https://www.kaggle.com/datasets/n
 > 81% of reviews are positive. Top keywords: "love", "perfect fit", "flattering", "great".
 
 > Dresses flagged for "small" / "fabric" are strong discontinuation candidates based on recurring negative terms.
+
+> $\color{CadetBlue}{The\ quick\ brown\ fox\ jumps\ over\ the\ lazy\ dog.}$

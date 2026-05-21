@@ -21,7 +21,7 @@ Dataset: [Women's Clothing E-Commerce Reviews](https://www.kaggle.com/datasets/n
 
 ## Key Findings
 
-> $\color{Bittersweet}{Trend\department\has\15.5%\negative\rate} vs. 8–10% elsewhere, sizing inconsistencies appear as the main driver.
+> $\color{Bittersweet} {Trend\ department\ has\ 15.5%\ negative\ rate.}$ vs. 8–10% elsewhere, sizing inconsistencies appear as the main driver.
 
 > $\color{Bittersweet} {81% of reviews are positive.}Top keywords: "love", "perfect fit", "flattering", "great".
 

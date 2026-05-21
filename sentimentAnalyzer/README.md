@@ -9,7 +9,7 @@ NLP pipeline that classifies 23,000+ women's clothing reviews as Positive, Negat
 + Aggregates scores by product department and class to rank best and worst performers
 + Generates keyword word clouds and frequency charts for each sentiment bucket
 
-Dataset: Women's Clothing E-Commerce Reviews(https://www.kaggle.com/datasets/nicapotato/womens-ecommerce-clothing-reviews/data) via Kaggle
+Dataset: [Women's Clothing E-Commerce Reviews](https://www.kaggle.com/datasets/nicapotato/womens-ecommerce-clothing-reviews/data) via Kaggle
 
 
 ## Requirements

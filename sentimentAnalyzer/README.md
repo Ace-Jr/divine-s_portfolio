@@ -1,6 +1,7 @@
 # Review Sentiment Analyzer
 NLP pipeline that classifies 23,000+ women's clothing reviews as Positive, Negative, or Neutral — then surfaces which product categories and keywords drive each sentiment. 
-***
+
+
 ## Requirements
 + Python
 + Jupyter

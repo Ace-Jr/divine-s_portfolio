@@ -27,4 +27,4 @@ Dataset: [Women's Clothing E-Commerce Reviews](https://www.kaggle.com/datasets/n
 
 > Dresses flagged for "small" / "fabric" are strong discontinuation candidates based on recurring negative terms.
 
-> $\color{CadetBlue}{The\ quick\ brown\ fox\ jumps\ over\ the\ lazy\ dog.}$
+> $\color{CadetBlue}{The\ quick\ brown\ fox\ jumps\ over\ the\ lazy\ dog.}$ vs. 8–10% elsewhere, sizing inconsistencies appear as the main driver.

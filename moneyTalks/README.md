@@ -23,3 +23,6 @@ Open notebooks/EPL_Analysis.Rmd and knit to PDF.
 
 >$\color{yellow}{Squad\ experience\ also\ insignificant}$ - p = 0.856. Experience ratio adds no predictive value after controlling for club identity.
 
+### Data
+9 clubs × 11 seasons = 99 observations. Variables: Points, Wage Ratio, Manager Tenure (days, Sept 2 snapshot), Relative Experience Index. 
+Source: Soccerdata API + manual wage data.

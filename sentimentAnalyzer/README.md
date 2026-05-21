@@ -3,7 +3,7 @@ NLP pipeline that classifies 23,000+ women's clothing reviews as Positive, Negat
 
 ***
 
-##Pipeline
+## Pipeline
 + Cleans and normalizes review text (lowercase, punctuation removal)
 + Scores each review with VADER compound sentiment → labels it Positive / Negative / Neutral
 + Aggregates scores by product department and class to rank best and worst performers

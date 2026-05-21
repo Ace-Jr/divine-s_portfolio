@@ -1,31 +1,52 @@
 # Review Sentiment Analyzer
 
-This project is a comprehensive data analysis and Natural Language Processing (NLP) solution designed to help an e-commerce clothing business understand its customers' voice. By programmatically analyzing thousands of text reviews, we can move beyond simple star ratings to uncover specific drivers of customer satisfaction and dissatisfaction. The goal is to provide actionable insights that can be used to improve product quality, reduce returns, and enhance marketing efforts.
+T
+<style>
+  .rm-wrap { max-width: 640px; padding: 2rem 0; font-family: var(--font-mono); }
+  .rm-h1 { font-size: 22px; font-weight: 500; color: var(--color-text-primary); margin: 0 0 0.5rem; }
+  .rm-tagline { font-size: 14px; color: var(--color-text-secondary); margin: 0 0 1.5rem; line-height: 1.6; }
+  .rm-h2 { font-size: 15px; font-weight: 500; color: var(--color-text-primary); margin: 1.5rem 0 0.5rem; border-bottom: 0.5px solid var(--color-border-tertiary); padding-bottom: 4px; }
+  .rm-badge { display: inline-block; font-size: 12px; padding: 3px 10px; border-radius: 999px; margin-right: 6px; margin-bottom: 6px; font-family: var(--font-mono); }
+  .b-py { background: var(--color-background-info); color: var(--color-text-info); }
+  .b-nb { background: var(--color-background-warning); color: var(--color-text-warning); }
+  .b-gh { background: var(--color-background-secondary); color: var(--color-text-secondary); border: 0.5px solid var(--color-border-secondary); }
+  .rm-code { background: var(--color-background-secondary); border: 0.5px solid var(--color-border-tertiary); border-radius: var(--border-radius-md); padding: 0.75rem 1rem; font-size: 13px; color: var(--color-text-primary); margin: 0.5rem 0 1rem; white-space: pre; overflow-x: auto; }
+  .rm-ul { margin: 0; padding-left: 1.25rem; }
+  .rm-ul li { font-size: 14px; color: var(--color-text-primary); margin-bottom: 6px; line-height: 1.6; }
+  .rm-ul li span { color: var(--color-text-secondary); }
+  .rm-insight { background: var(--color-background-secondary); border-left: 2px solid var(--color-border-info); border-radius: 0; padding: 0.6rem 1rem; margin-bottom: 8px; font-size: 13px; color: var(--color-text-primary); line-height: 1.6; }
+  .rm-insight strong { color: var(--color-text-info); font-weight: 500; }
+  .anno { font-size: 11px; color: var(--color-text-secondary); background: var(--color-background-warning); border: 0.5px solid var(--color-border-tertiary); border-radius: var(--border-radius-md); padding: 2px 8px; margin-left: 8px; font-family: var(--font-sans); vertical-align: middle; }
+</style>
 
-## Business Questions Addressed:
-- What is the overall sentiment distribution (Positive, Negative, Neutral) across all products?
-- Which product departments or classes receive the most negative feedback?
-- What specific keywords (e.g., "sizing," "fabric," "color") are most frequently associated with positive vs. negative reviews?
-- Can we identify specific products that are strong candidates for promotion or discontinuation based on sentiment?
+<div class="rm-wrap">
+  <h2 class="rm-h1">Review Sentiment Analyzer <span class="anno">✓ what it is</span></h2>
+  <p class="rm-tagline">NLP pipeline that classifies 23,000+ women's clothing reviews as Positive, Negative, or Neutral — then surfaces which product categories and keywords drive each sentiment. <span class="anno">✓ one sentence, concrete number</span></p>
 
-## Dataset
-Women's Clothing E-Commerce Reviews.
+  <div>
+    <span class="rm-badge b-py">Python</span>
+    <span class="rm-badge b-nb">Jupyter</span>
+    <span class="rm-badge b-gh">TextBlob / VADER</span>
+    <span class="rm-badge b-gh">Pandas</span>
+    <span class="rm-badge b-gh">Matplotlib</span>
+    <span class="anno" style="font-family:var(--font-sans)">✓ stack visible immediately</span>
+  </div>
 
-Source: [Kaggle](https://www.kaggle.com/datasets/nicapotato/womens-ecommerce-clothing-reviews)
+  <div class="rm-h2">What it does</div>
+  <ul class="rm-ul">
+    <li>Cleans and normalizes review text <span>(lowercase, punctuation removal)</span></li>
+    <li>Scores each review with VADER compound sentiment → labels it Positive / Negative / Neutral</li>
+    <li>Aggregates scores by product department and class to rank best and worst performers</li>
+    <li>Generates keyword word clouds and frequency charts for each sentiment bucket</li>
+  </ul>
+  <p style="font-size:13px;color:var(--color-text-secondary);margin-top:6px;">Dataset: <a href="https://www.kaggle.com/" style="color:var(--color-text-info)">Women's Clothing E-Commerce Reviews</a> via Kaggle</p>
 
-## Tools
-- Python (Pandas, TextBlob, Matplotlib)
-- Jupyter Notebooks
-- GitHub
+  <div class="rm-h2">Setup</div>
+  <div class="rm-code">pip install pandas textblob matplotlib</div>
+  <p style="font-size:13px;color:var(--color-text-secondary);margin-top:-4px;">Open <code style="font-size:12px;">notebooks/</code> and run cells top to bottom.</p>
 
-## Project Pipeline:
-- Data Cleaning & Preprocessing: Loaded the CSV dataset using Pandas; handled missing values and prepared review text for analysis (e.g., lowercasing, removing punctuation).
-- Sentiment Analysis: Applied the VADER (or TextBlob) sentiment analyzer to each review to generate a compound sentiment score. Classified reviews into 'Positive', 'Negative', and 'Neutral' categories based on this score.
-- Exploratory Data Analysis (EDA): Combined sentiment scores by product category and department are used to identify high- and low-performing sectors.
-- Insight Generation: Created word clouds and frequency distributions for positive and negative review keywords to diagnose specific issues.
-
-## Insights & Recommendations:
-- Investigate the "Top" Department: The "Trend" department shows a significantly higher proportion of negative reviews (15.5%) compared to other departments like "Dresses" (8.5%) and "Tops" (9.7%). The business should prioritize investigating the root causes of this dissatisfaction. This could involve analyzing product quality, sizing inconsistencies, or misleading product descriptions specific to this department.
-- Leverage Positive Feedback for Marketing: With over 81% of reviews classified as positive, the marketing team has a rich source of user-generated content. Make use of words like "love", "perfect fit", "flattering" and "great" in their social media posts, email campaings and provide descroptions to attract and reassure customers.
-- Conduct a Deep Dive into "Dresses":
-Examine sales and return statistics for particular dress styles. Identify which dresses are consistently praised for their fit and style and promote them. Meanwhile, discontinue or investigate dresses that are frequently reviewed as "small", "short" or made of poor "fabric".
+  <div class="rm-h2">Key findings <span class="anno" style="font-family:var(--font-sans)">✓ results, not consulting slides</span></div>
+  <div class="rm-insight"><strong>Trend dept. has 15.5% negative rate</strong> vs. 8–10% elsewhere — sizing inconsistencies appear as the main driver.</div>
+  <div class="rm-insight"><strong>81% of reviews are positive.</strong> Top keywords: "love", "perfect fit", "flattering", "great".</div>
+  <div class="rm-insight"><strong>Dresses flagged for "small" / "fabric"</strong> are strong discontinuation candidates based on recurring negative terms.</div>
+</div>

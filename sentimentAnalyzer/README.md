@@ -1,6 +1,3 @@
-# Review Sentiment Analyzer
-
-T
 <style>
   .rm-wrap { max-width: 640px; padding: 2rem 0; font-family: var(--font-mono); }
   .rm-h1 { font-size: 22px; font-weight: 500; color: var(--color-text-primary); margin: 0 0 0.5rem; }

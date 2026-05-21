@@ -21,5 +21,5 @@ Open notebooks/EPL_Analysis.Rmd and knit to PDF.
 
 >$\color{yellow}{Managerial\ tenure\ has\ no\ significant\ effect}$ - p = 0.229. The "managerial stability" hypothesis is not supported in this season window.
 
->$\color{yellow}{Squad experience also insignificant}$ — p = 0.856. Experience ratio adds no predictive value after controlling for club identity.
+>$\color{yellow}{Squad\ experience\ also\ insignificant}$ — p = 0.856. Experience ratio adds no predictive value after controlling for club identity.
 

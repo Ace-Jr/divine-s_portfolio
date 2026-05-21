@@ -19,4 +19,7 @@ Open notebooks/EPL_Analysis.Rmd and knit to PDF.
 
 >$\color{red}{Wages\ become\ insignificant\ once\ club\ identity\ is\ controlled}$ — Log_Wage p = 0.387. High wages reflect club size, not gains from seasonal performance.
 
->
+>$\color{yellow}{Managerial\ tenure\ has\ no\ significant\ effect}$ - p = 0.229. The "managerial stability" hypothesis is not supported in this season window.
+
+>$\color{yellow}{Squad experience also insignificant}$ — p = 0.856. Experience ratio adds no predictive value after controlling for club identity.
+

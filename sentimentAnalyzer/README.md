@@ -20,8 +20,10 @@ Dataset: [Women's Clothing E-Commerce Reviews](https://www.kaggle.com/datasets/n
 + matplotlib
 
 ## Key Findings
->Trend dept. has 15.5% negative rate vs. 8–10% elsewhere, sizing inconsistencies appear as the main driver.
 
->81% of reviews are positive. Top keywords: "love", "perfect fit", "flattering", "great".
+<div class="rm-insight"><strong>Trend dept. has 15.5% negative rate</strong> vs. 8–10% elsewhere, sizing inconsistencies appear as the main driver.</div>
 
->Dresses flagged for "small" / "fabric" are strong discontinuation candidates based on recurring negative terms.
+
+ <div class="rm-insight"><strong>81% of reviews are positive.</strong> Top keywords: "love", "perfect fit", "flattering", "great".</div>
+
+ <div class="rm-insight"><strong>Dresses flagged for "small" / "fabric" </strong> are strong discontinuation candidates based on recurring negative terms.</div>

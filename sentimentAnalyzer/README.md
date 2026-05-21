@@ -1,7 +1,7 @@
 # Review Sentiment Analyzer
 NLP pipeline that classifies 23,000+ women's clothing reviews as Positive, Negative, or Neutral. It surfaces which product categories and keywords drive each sentiment. 
 
-**
+***
 
 ##Pipeline
 + Cleans and normalizes review text (lowercase, punctuation removal)
@@ -16,7 +16,7 @@ Dataset: [Women's Clothing E-Commerce Reviews](https://www.kaggle.com/datasets/n
 + Python
 + Jupyter
 + TextBlob / VADER
-+ Pandas
++ Panda
 + Matplotlib
 
 ## Key Findings

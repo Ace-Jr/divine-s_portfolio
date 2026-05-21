@@ -16,8 +16,8 @@ Dataset: [Women's Clothing E-Commerce Reviews](https://www.kaggle.com/datasets/n
 + Python
 + Jupyter
 + TextBlob / VADER
-+ Panda
-+ Matplotlib
++ pandas
++ matplotlib
 
 ## Key Findings
 >Trend dept. has 15.5% negative rate vs. 8–10% elsewhere, sizing inconsistencies appear as the main driver.

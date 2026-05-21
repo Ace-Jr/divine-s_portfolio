@@ -21,7 +21,7 @@ Dataset: [Women's Clothing E-Commerce Reviews](https://www.kaggle.com/datasets/n
 
 ## Key Findings
 
-> $\color{Red}{ 81 percent\ of\ reviews\ are\ positive.}$ Top keywords: "love", "perfect fit", "flattering", "great".
+> $\color{Red}{ 81\ percent\ of\ reviews\ are\ positive.}$ Top keywords: "love", "perfect fit", "flattering", "great".
 
 > $\color{Red}{Dresses\ flagged\ for\ "small" / "fabric"}$ are strong discontinuation candidates based on recurring negative terms.
 
